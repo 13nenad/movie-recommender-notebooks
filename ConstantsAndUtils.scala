@@ -1,6 +1,6 @@
 // Databricks notebook source
 val COSMOS_ENDPOINT = "https://movie-recommender.documents.azure.com:443/"
-val MASTER_KEY = "lT1muP4WJaoH2nGMaGgWXmfzKuCCmfwHSenILTvQNv9iIpbgEQDSlogkFNMD8gfqPzXsHRqLCDjljwNxTpPqTQ=="
+val MASTER_KEY = {master_key}
 val DB_NAME = "movie-recommender"
 val MOVIES_CONTAINER_NAME = "movies"
 val RATINGS_CONTAINER_NAME = "ratings"
